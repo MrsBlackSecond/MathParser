@@ -63,6 +63,8 @@ namespace Kursovay_Help_Project
         public string[] ParseExpression(double x)
         {
             double Left, Right;
+            //To process values greater than 10/100/Эта часть для обработки значений больше 10/100
+            //Heavily loads the system/Сильно нагружает систему
             //for (int i = 0; i < Exp.Length; i++)
             //{
             //    for (int j = 0; j < 50; j++)
